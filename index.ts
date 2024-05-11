@@ -13,10 +13,10 @@ const MAX = 100
 const ARRAY_SIZE = 100
 
 function mergeSort(array: number[]): number[] {
-  const mid = array.length / 2;
+  const mid = array.length / 2
 
   if (array.length < 2) {
-    return array;
+    return array
   }
 
   const left = array.splice(0, mid)
